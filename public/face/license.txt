@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tactical Headgear SG Concept
+* source:	https://sketchfab.com/3d-models/tactical-headgear-sg-concept-94e116633c284629946140f2c031ad39
+* author:	TuszPro (https://sketchfab.com/TuszPro)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tactical Headgear SG Concept" (https://sketchfab.com/3d-models/tactical-headgear-sg-concept-94e116633c284629946140f2c031ad39) by TuszPro (https://sketchfab.com/TuszPro) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
