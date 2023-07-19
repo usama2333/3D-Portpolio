@@ -118,7 +118,7 @@ import {
     {
       title: "Internship React Js",
       company_name: "Magnus Mage",
-      icon: starbucks,
+      icon: meta,
       iconBg: "#383E56",
       date: "January 2022 - March 2022",
       points: [
@@ -131,7 +131,7 @@ import {
     {
       title: "Junior React Developer",
       company_name: "Magnus Mage",
-      icon: tesla,
+      icon: meta,
       iconBg: "#E6DEDD",
       date: "March 2022 - April 2022",
       points: [
@@ -144,7 +144,7 @@ import {
     {
       title: "React Developer",
       company_name: "Builtin Soft",
-      icon: shopify,
+      icon: starbucks,
       iconBg: "#383E56",
       date: "May 2022 - Present",
       points: [
