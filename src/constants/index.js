@@ -19,11 +19,13 @@ import {
     starbucks,
     tesla,
     shopify,
+  //  material,
     carrent,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
+  // import {bootstrap} from '../assets'
   
   export const navLinks = [
     {
@@ -108,10 +110,10 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "material",
+    //   icon: material,
+    // },
   ];
   
   const experiences = [
