@@ -21,12 +21,21 @@ import {
     shopify,
   //  material,
     carrent,
+    countryProject,
+    dashboardProject,
+    liboexProject,
+    nynxProject,
+    socialmediaProject,
+    solarProject,
+    task1,
+    todoList,
+    v2fExchangeProject,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
-  // import {bootstrap} from '../assets'
   
+
   export const navLinks = [
     {
       id: "about",
@@ -188,68 +197,157 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Country Info & Translator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Country Info project can be displays all the county Data. In This project i can also use language translator for translate the data in Different language. and also use with light mode and dark mode feature.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Redux",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Material UI",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: countryProject,
+      source_code_link: "https://github.com/usama2333/Country-Info-and-Language-Translator",
     },
     {
-      name: "Job IT",
+      name: "Nynx",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Nynx is a website that is made for freelancers and those who want to hire the freelancers and developers for their projects.It can gives the oppertunity for both the freelancers and the customers who want to own the services.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Redux",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Material UI",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: nynxProject,
+      source_code_link: "https://github.com/usama2333/Project",
     },
     {
-      name: "Trip Guide",
+      name: "Admin DashBoard",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Admin Dashboard Panel is built in React and Material Ui it can displays multiple informational Data in the from off Tabels , Charts and Graphs,I. It also uses Light mode and Dark Mode Feature.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Graphs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Material UI",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: dashboardProject,
+      source_code_link: "https://github.com/usama2333/Admin-Dash-Board",
     },
+
+    {
+      name: "Solar Panel",
+      description:
+        "Solar Panel is a landing page that is Made in React. It has a different component that can define how to install the renewable energy resources,It has shows how to solar panel is installed and the features and benifits of the solar panel.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "Graphs",
+        //   color: "green-text-gradient",
+        // },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: solarProject,
+      source_code_link: "https://github.com/usama2333/Solar-Panel",
+    },
+
+    {
+      name: "V2f Exchange",
+      description:
+        "V2F Exchange is a Crypto Currency project that is made in React. In this project we can handle the Crypto data that comes from Apis and displays the data in the form of tables and Cards,Also uses the loaders and error handling .",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: v2fExchangeProject,
+      source_code_link: "https://github.com/usama2333/V2f-Cryptocurrency-Exchange",
+    },
+
+    {
+      name: "Social Media",
+      description:
+        "Social Media is the project that is a some little copy of facebook that can displays the post with the text and added like an share option.We can scroll the posts from top or bottom, In this project the light mode an dark mode feature is also added  .",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "Redux",
+        //   color: "green-text-gradient",
+        // },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: socialmediaProject,
+      source_code_link: "https://github.com/usama2333/Social-Media-Website",
+    },
+
+    {
+      name: "Liboex CryptoCurrency",
+      description:
+        "Liboex CryptoCurrency is a Crypto Currency project that is made in React. In this project we can handle the Api data with the help of Redux ToolKit and displays the data in the form of tables,Also uses the loaders and error handling",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: liboexProject,
+      source_code_link: "https://github.com/usama2333/Libonex-Cryptocurrency-exchange",
+    },
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };

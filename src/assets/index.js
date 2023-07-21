@@ -29,6 +29,15 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import countryProject from "./countryProject.png";
+import dashboardProject from "./dashboardProject.png";
+import liboexProject from "./liboexProject.png";
+import nynxProject from "./nynxProject.png";
+import socialmediaProject from "./socialmediaProject.png";
+import task1 from "./task1.png";
+import todoList from "./todoList.png";
+import solarProject from "./solarProject.png";
+import v2fExchangeProject from "./v2fExchangeProject.png";
 
 export {
   logo,
@@ -59,4 +68,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  countryProject,
+  dashboardProject,
+  liboexProject,
+  nynxProject,
+  socialmediaProject,
+  solarProject,
+  task1,
+  todoList,
+  v2fExchangeProject,
 };
