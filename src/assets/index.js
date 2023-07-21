@@ -38,7 +38,7 @@ import task1 from "./task1.png";
 import todoList from "./todoList.png";
 import solarProject from "./solarProject.png";
 import v2fExchangeProject from "./v2fExchangeProject.png";
-
+import codeIt from "./codeIt.png";
 export {
   logo,
   backend,
@@ -77,4 +77,5 @@ export {
   task1,
   todoList,
   v2fExchangeProject,
+  codeIt
 };

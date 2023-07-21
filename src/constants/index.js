@@ -30,6 +30,7 @@ import {
     task1,
     todoList,
     v2fExchangeProject,
+    codeIt,
     jobit,
     tripguide,
     threejs,
@@ -346,6 +347,50 @@ import {
       ],
       image: liboexProject,
       source_code_link: "https://github.com/usama2333/Libonex-Cryptocurrency-exchange",
+    },
+
+    {
+      name: "CodeIt",
+      description:
+        "It has login , Signup and Forget password page ,The All Forms data is Validate through formik and Yup also displays error for invalid credentials,Here we also use the local storage for store the login token if the user is login and removes the token after logout.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Routing",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: codeIt,
+      source_code_link: "https://github.com/usama2333/Task-1",
+    },
+
+    {
+      name: "Todo App",
+      description:
+        "The Todo app is capibale for the adding task in the in form of list. we can mark the task done when it s completed,We can also update the existing task when needs to be update and also have a delete option it can delete the task from the list.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "Redux",
+        //   color: "green-text-gradient",
+        // },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: todoList,
+      source_code_link: "https://github.com/usama2333/Todo-App-React",
     },
 
   ];
