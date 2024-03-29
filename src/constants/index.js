@@ -128,11 +128,11 @@ import {
   
   const experiences = [
     {
-      title: "Internship React Js",
-      company_name: "Magnus Mage",
+      title: "Mern Stack (Techlift Bootcamp)",
+      company_name: "Contour Software House",
       icon: meta,
       iconBg: "#383E56",
-      date: "January 2022 - March 2022",
+      date: "October 2022 - December 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,11 +141,11 @@ import {
       ],
     },
     {
-      title: "Junior React Developer",
+      title: "Internship (React Js)",
       company_name: "Magnus Mage",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "March 2022 - April 2022",
+      date: "January 2023 - March 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,11 +154,11 @@ import {
       ],
     },
     {
-      title: "React Developer",
-      company_name: "Builtin Soft",
+      title: "Associate Software Engineer",
+      company_name: "Devbatch",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "May 2022 - Present",
+      date: "April 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
