@@ -19,7 +19,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
-import countryProject from "./countryProject.png";
+// import countryProject from "./countryProject.png";
 import dashboardProject from "./dashboardProject.png";
 import liboexProject from "./liboexProject.png";
 import nynxProject from "./nynxProject.png";
@@ -55,7 +55,7 @@ export {
   typescript,
   threejs,
   meta,
-  countryProject,
+  // countryProject,
   dashboardProject,
   liboexProject,
   nynxProject,

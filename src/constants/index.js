@@ -15,7 +15,7 @@ import {
     git,
     figma,
     meta,
-    countryProject,
+    // countryProject,
     dashboardProject,
     liboexProject,
     nynxProject,
@@ -258,27 +258,27 @@ import {
       image: agent2,
       source_code_link: "",
     },
-    {
-      name: "Country Info & Translator",
-      description:
-        "Country Info project can be displays all the county Data. In This project i can also use language translator for translate the data in Different language. and also use with light mode and dark mode feature.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Redux",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Material UI",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: countryProject,
-      source_code_link: "https://github.com/usama2333/Country-Info-and-Language-Translator",
-    },
+    // {
+    //   name: "Country Info & Translator",
+    //   description:
+    //     "Country Info project can be displays all the county Data. In This project i can also use language translator for translate the data in Different language. and also use with light mode and dark mode feature.",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Redux",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Material UI",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: countryProject,
+    //   source_code_link: "https://github.com/usama2333/Country-Info-and-Language-Translator",
+    // },
     {
       name: "Nynx",
       description:
