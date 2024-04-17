@@ -19,19 +19,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
-// import countryProject from "./countryProject.png";
-import dashboardProject from "./dashboardProject.png";
-import liboexProject from "./liboexProject.png";
-import nynxProject from "./nynxProject.png";
-import socialmediaProject from "./socialmediaProject.jpg";
-import task1 from "./task1.png";
-import todoList from "./todoList.png";
-import solarProject from "./solarProject.jpg";
-import v2fExchangeProject from "./v2fExchangeProject.png";
-import codeIt from "./codeIt.png";
-import agent2 from "./agent2.jpg";
-import dashboard from "./dashboard.png";
-import opticlac from "./opticlac.png";
+
 
 export {
   logo,
@@ -55,17 +43,5 @@ export {
   typescript,
   threejs,
   meta,
-  // countryProject,
-  dashboardProject,
-  liboexProject,
-  nynxProject,
-  socialmediaProject,
-  solarProject,
-  task1,
-  todoList,
-  v2fExchangeProject,
-  codeIt,
-  agent2,
-  dashboard,
-  opticlac
+
 };
