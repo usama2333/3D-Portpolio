@@ -17,7 +17,7 @@ import {
     meta,
     threejs,
   } from "../assets";
-  import dashboard from "../assets/dashboard.png"
+  import dashboard from "../assets/dashboard.jpg"
   
 
   export const navLinks = [
