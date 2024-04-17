@@ -34,6 +34,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    dashboard,
+    opticlac,
+    agent1,
+    agent2,
   } from "../assets";
   
 
@@ -53,10 +57,7 @@ import {
   ];
   
   const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
+
     {
       title: "Frontend Developer",
       icon: mobile,
@@ -68,6 +69,10 @@ import {
     {
       title: "Next Developer",
       icon: creator,
+    },
+    {
+      title: "Nest Developer",
+      icon: web,
     },
   ];
   
@@ -127,14 +132,16 @@ import {
   ];
   
   const experiences = [
+ 
+ 
     {
-      title: "Mern Stack (Techlift Bootcamp)",
-      company_name: "Contour Software House",
+      title: "Associate Software Engineer",
+      company_name: "Devbatch",
       icon: meta,
       iconBg: "#383E56",
-      date: "October 2022 - December 2022",
+      date: "May 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using React.js, Next js, Nest js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
@@ -145,25 +152,25 @@ import {
       company_name: "Magnus Mage",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "January 2023 - March 2023",
+      date: "January 2023 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Develop projects using React and Material UI with fully responsive on all screens.",
+        "Develop projects using simple HTML CSS and JavaScript with dynamic functionally.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Build small task type applications or single page design sites."
       ],
     },
     {
-      title: "Associate Software Engineer",
-      company_name: "Devbatch",
-      icon: starbucks,
+      title: "Mern Stack (Techlift Bootcamp)",
+      company_name: "Contour Software House",
+      icon: meta,
       iconBg: "#383E56",
-      date: "April 2023 - Present",
+      date: "October 2022 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing the project on Mern Stack.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learn the frontend and backend here.",
       ],
     },
    
@@ -197,6 +204,69 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Dashboard",
+      description:
+        "Hrm Dashboard contains all the record of the employess data and their attendence according to checkin or checkout. It also manages the leaves and all informations about Employees",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/usama2333/devbatch-Hrm",
+    },
+    {
+      name: "Opticlac",
+      description:
+        "Opticlac website is made for glasses and frames purposes it contains all the records of its customers in the form of seperate tables with all filters apply on it. It contains seperates panels for admin and user ",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: opticlac,
+      source_code_link: "",
+    },
+    {
+      name: "Agent V1",
+      description:
+        "Agent V1 is a gaming site that is made in react and material it contains different players and characters in the form of cards also showing their availbility status it is a Frontend of the game",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: agent2,
+      source_code_link: "",
+    },
     {
       name: "Country Info & Translator",
       description:
@@ -314,10 +384,6 @@ import {
           name: "React",
           color: "blue-text-gradient",
         },
-        // {
-        //   name: "Redux",
-        //   color: "green-text-gradient",
-        // },
         {
           name: "Material UI",
           color: "pink-text-gradient",
@@ -327,71 +393,71 @@ import {
       source_code_link: "https://github.com/usama2333/Social-Media-Website",
     },
 
-    {
-      name: "Liboex CryptoCurrency",
-      description:
-        "Liboex CryptoCurrency is a Crypto Currency project that is made in React. In this project we can handle the Api data with the help of Redux ToolKit and displays the data in the form of tables,Also uses the loaders and error handling",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Redux",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Material UI",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: liboexProject,
-      source_code_link: "https://github.com/usama2333/Libonex-Cryptocurrency-exchange",
-    },
+    // {
+    //   name: "Liboex CryptoCurrency",
+    //   description:
+    //     "Liboex CryptoCurrency is a Crypto Currency project that is made in React. In this project we can handle the Api data with the help of Redux ToolKit and displays the data in the form of tables,Also uses the loaders and error handling",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Redux",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Material UI",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: liboexProject,
+    //   source_code_link: "https://github.com/usama2333/Libonex-Cryptocurrency-exchange",
+    // },
 
-    {
-      name: "CodeIt",
-      description:
-        "It has login , Signup and Forget password page ,The All Forms data is Validate through formik and Yup also displays error for invalid credentials,Here we also use the local storage for store the login token if the user is login and removes the token after logout.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Routing",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Material UI",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: codeIt,
-      source_code_link: "https://github.com/usama2333/Task-1",
-    },
+    // {
+    //   name: "CodeIt",
+    //   description:
+    //     "It has login , Signup and Forget password page ,The All Forms data is Validate through formik and Yup also displays error for invalid credentials,Here we also use the local storage for store the login token if the user is login and removes the token after logout.",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Routing",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Material UI",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: codeIt,
+    //   source_code_link: "https://github.com/usama2333/Task-1",
+    // },
 
-    {
-      name: "Todo App",
-      description:
-        "The Todo app is capibale for the adding task in the in form of list. we can mark the task done when it s completed,We can also update the existing task when needs to be update and also have a delete option it can delete the task from the list.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        // {
-        //   name: "Redux",
-        //   color: "green-text-gradient",
-        // },
-        {
-          name: "Material UI",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: todoList,
-      source_code_link: "https://github.com/usama2333/Todo-App-React",
-    },
+    // {
+    //   name: "Todo App",
+    //   description:
+    //     "The Todo app is capibale for the adding task in the in form of list. we can mark the task done when it s completed,We can also update the existing task when needs to be update and also have a delete option it can delete the task from the list.",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     // {
+    //     //   name: "Redux",
+    //     //   color: "green-text-gradient",
+    //     // },
+    //     {
+    //       name: "Material UI",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: todoList,
+    //   source_code_link: "https://github.com/usama2333/Todo-App-React",
+    // },
 
   ];
   

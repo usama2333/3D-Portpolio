@@ -20,12 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -39,6 +37,13 @@ import todoList from "./todoList.png";
 import solarProject from "./solarProject.png";
 import v2fExchangeProject from "./v2fExchangeProject.png";
 import codeIt from "./codeIt.png";
+import agent1 from "./agent1.png";
+import agent2 from "./agent2.png";
+import dashboard from "./dashboard.png";
+import popcard from "./popcard.png";
+import popcard1 from "./popcard1.png";
+import opticlac from "./opticlac.png";
+
 export {
   logo,
   backend,
@@ -77,5 +82,11 @@ export {
   task1,
   todoList,
   v2fExchangeProject,
-  codeIt
+  codeIt,
+  agent1,
+  agent2,
+  dashboard,
+  popcard,
+  popcard1,
+  opticlac
 };
