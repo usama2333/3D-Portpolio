@@ -17,6 +17,7 @@ import {
     meta,
     threejs,
   } from "../assets";
+  import dashboard from "../assets/dashboard.png"
   
 
   export const navLinks = [
@@ -182,27 +183,27 @@ import {
   ];
   
   const projects = [
-    // {
-    //   name: "Dashboard",
-    //   description:
-    //     "Hrm Dashboard contains all the record of the employess data and their attendence according to checkin or checkout. It also manages the leaves and all informations about Employees",
-    //   tags: [
-    //     {
-    //       name: "React",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "Redux",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "Material UI",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: dashboard,
-    //   source_code_link: "https://github.com/usama2333/devbatch-Hrm",
-    // },
+    {
+      name: "Dashboard",
+      description:
+        "Hrm Dashboard contains all the record of the employess data and their attendence according to checkin or checkout. It also manages the leaves and all informations about Employees",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/usama2333/devbatch-Hrm",
+    },
     // {
     //   name: "Opticlac",
     //   description:
