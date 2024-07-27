@@ -26,6 +26,9 @@ import {
   import solarProject from "../assets/solarProject.jpg"
   import socialmediaProject from "../assets/socialmediaProject.jpg"
   import v2fExchangeProject from "../assets/v2fExchangeProject.jpg"
+  import redpocket from "../assets/redpocket.jpg"
+  import freedompop from "../assets/freedompop.jpg"
+  import unrealmobile from "../assets/unrealmobile.jpg"
 
   export const navLinks = [
     {
@@ -57,7 +60,7 @@ import {
       icon: creator,
     },
     {
-      title: "Nest Developer",
+      title: "Node Developer",
       icon: web,
     },
   ];
@@ -118,14 +121,26 @@ import {
   ];
   
   const experiences = [
- 
+    {
+      title: "Software Engineer",
+      company_name: "Softpyramid Solutions",
+      icon: meta,
+      iconBg: "#383E56",
+      date: "Jun 2024 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js, Next js, Nest js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
  
     {
       title: "Associate Software Engineer",
-      company_name: "Devbatch",
+      company_name: "Devbatch Inc",
       icon: meta,
       iconBg: "#383E56",
-      date: "May 2023 - Present",
+      date: "May 2023 - May 2024",
       points: [
         "Developing and maintaining web applications using React.js, Next js, Nest js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -318,65 +333,69 @@ import {
     },
 
     {
-      name: "Solar Panel",
+      name: "RedPocket",
       description:
-        "Solar Panel is a landing page that is Made in React. It has a different component that can define how to install the renewable energy resources,It has shows how to solar panel is installed and the features and benifits of the solar panel.",
+      "Red Pocket is a wireless service that reimagines the traditional telecom model by offering choice, savings, and respect. It provide access to 5G networks, flexible call and internet packages, and even offer high-quality iPhones. Its frontend made in html , Css and javascript.",
       tags: [
         {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        // {
-        //   name: "Graphs",
-        //   color: "green-text-gradient",
-        // },
-        {
-          name: "Material UI",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: solarProject,
-      source_code_link: "https://github.com/usama2333/Solar-Panel",
-    },
-
-    {
-      name: "V2f Exchange",
-      description:
-        "V2F Exchange is a Crypto Currency project that is made in React. In this project we can handle the Crypto data that comes from Apis and displays the data in the form of tables and Cards,Also uses the loaders and error handling .",
-      tags: [
-        {
-          name: "React",
+          name: "Html",
           color: "blue-text-gradient",
         },
         {
-          name: "Redux",
+          name: "Css",
           color: "green-text-gradient",
         },
         {
-          name: "Material UI",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: v2fExchangeProject,
-      source_code_link: "https://github.com/usama2333/V2f-Cryptocurrency-Exchange",
+      image: redpocket,
+      source_code_link: "https://www.redpocket.com/",
     },
 
     {
-      name: "Social Media",
+      name: "Unreal Mobile",
       description:
-        "Social Media is the project that is a some little copy of facebook that can displays the post with the text and added like an share option.We can scroll the posts from top or bottom, In this project the light mode an dark mode feature is also added  .",
+      "Unreal Mobile is a wireless service that reimagines the traditional telecom model by offering choice, savings, and respect. It provide access to 5G networks, flexible call and internet packages, and even offer high-quality iPhones. Its frontend made in html , Css and javascript.",
       tags: [
         {
-          name: "React",
+          name: "Html",
           color: "blue-text-gradient",
         },
         {
-          name: "Material UI",
+          name: "Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: socialmediaProject,
-      source_code_link: "https://github.com/usama2333/Social-Media-Website",
+      image: unrealmobile,
+      source_code_link: "https://www.unrealmobile.com/",
+    },
+
+    {
+      name: "FreedomPop",
+      description:
+      "Freedom Pop is a wireless service that reimagines the traditional telecom model by offering choice, savings, and respect. It provide access to 5G networks, flexible call and internet packages, and even offer high-quality iPhones. Its frontend made in html , Css and javascript.",
+      tags: [
+       {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: freedompop,
+      source_code_link: "https://freedompop.com/",
     },
 
     // {
