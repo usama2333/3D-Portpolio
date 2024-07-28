@@ -132,6 +132,8 @@ import {
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Unreal Mobile: Developed Complete frontend website design from figma with responsive on web and mobile with user experience and service management",
+        "RedPocket: Contributed to the development and maintenance of web solutions, focusing Web design and adding new features."
       ],
     },
  
@@ -143,9 +145,11 @@ import {
       date: "May 2023 - May 2024",
       points: [
         "Developing and maintaining web applications using React.js, Next js, Nest js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Opticlac: Built a comprehensive dashboard for managing glasses and lenses, providing both user and admin panels for effective management and customer interaction",
+        "Agent V1: Created a gaming site that showcases players and characters through interactive cards, enhancing the frontend experience of the game.",
+        "FreedomPop: Contributed to the development and maintenance of web solutions, focusing on customer flexibility and service efficiency.",
+        "HRM Dashboard: Developed a user and admin dashboard to display comprehensive employee data, including login and logout times, attendance records, leaves, and overall employee information."
       ],
     },
     {
